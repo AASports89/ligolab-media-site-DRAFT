@@ -1,0 +1,38 @@
+:root {
+  --royal: #0563c1
+}
+
+.jumbotron {
+  background-color: var(--royal);
+  background-image: linear-gradient(
+    rgba(132, 164, 247, 0.914) 0%,
+    rgb(14, 2, 148) 100%);
+}
+.jumbotron img {
+width: 800px;
+height: 300px;
+margin-left: 200px;
+margin-top: -50px;
+margin-bottom: -50px;
+border-radius: 2em;
+}
+
+.d-flex:hover {
+  background-color: var(--royal);
+  background-image: linear-gradient(
+    rgba(132, 164, 247, 0.914) 0%,
+    rgb(14, 2, 148) 100%);
+}
+
+h5 {
+  text-align: center;
+}
+
+.btn-primary {
+  margin-left: 35%;
+}
+
+.form-1 {
+  padding-top: 1%;
+  padding-left: 10%;
+}
